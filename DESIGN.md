@@ -1,18 +1,18 @@
 HW 7 Design Doc
 
 int score_letter(char letter, char **vocabulary, size_t num_words):
-    create int count
-    loop through list of strings in vocab with num_words:
-        loop through 5 letters of each string:
-            if the letter from string == letter, add 1 to count
-    return count
+    - create int count
+    - loop through list of strings in vocab with num_words:
+        - loop through 5 letters of each string:
+            - if the letter from string == letter, add 1 to count
+    - return count
 
 int score_word(char *word, int *letter_scores):
-    create int score
-    loop from 0 to 25:
-        loop through 5 letters of word:
-            if the letter = letter from first loop, add letter score to score
-    return score
+    - create int score
+    - loop from 0 to 25:
+        - loop through 5 letters of word:
+            - if the letter = letter from first loop, add letter score to score
+    - return score
 
 size_t filter_vocabulary_gray(char letter, char **vocabulary, size_t num_words):
     create size_t filtered
