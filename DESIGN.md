@@ -1,6 +1,7 @@
 HW 7 Design Doc
 
 int score_letter(char letter, char **vocabulary, size_t num_words):
+
     - create int count
     - loop through list of strings in vocab with num_words:
         - loop through 5 letters of each string:
