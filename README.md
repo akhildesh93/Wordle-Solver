@@ -2,8 +2,8 @@ Wordle Solver:
 
 Overview of game:
 
-    - 6 guesses for a 5 letter word
-    - for each guess, signifies letter accuracy with Green (correct), Yellow (wrong position), or Gray (not in word)
+    6 guesses for a 5 letter word
+    for each guess, signifies letter accuracy with Green (correct), Yellow (wrong position), or Gray (not in word)
     
 search_util.c:
 
@@ -13,7 +13,7 @@ search_util.c:
     
 solver.c:
 
-    - loads vocabulary
-    - calls guess function in search_util.c
-    - returns green, yellow, or gray for letter guesses
+    loads vocabulary
+    calls guess function in search_util.c
+    returns green, yellow, or gray for letter guesses
   
