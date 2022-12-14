@@ -12,7 +12,6 @@
 // vocabulary, then this function will return 15.
 int score_letter(char letter, char **vocabulary, size_t num_words) {
 
-  // TODO(you): implement this function!
   int count = 0;
   for(size_t i = 0;i<num_words;i++){
     if(vocabulary[i] == NULL){
@@ -38,7 +37,6 @@ int score_letter(char letter, char **vocabulary, size_t num_words) {
 // score once.
 int score_word(char *word, int *letter_scores) {
 
-  // TODO(you): implement this function!
   int score = 0;
   for(int i = 0;i<26;i++){
     for(int j = 0;j<5;j++){
@@ -87,7 +85,6 @@ char *get_guess(char **vocabulary, size_t num_words) {
 size_t filter_vocabulary_gray(char letter, char **vocabulary,
                               size_t num_words) {
 
-  // TODO(you): implement this function!
   size_t filtered = 0;
   for(size_t i = 0;i<num_words;i++){
     if(vocabulary[i] == NULL){
@@ -114,7 +111,6 @@ size_t filter_vocabulary_gray(char letter, char **vocabulary,
 size_t filter_vocabulary_yellow(char letter, int position, char **vocabulary,
                                 size_t num_words) {
 
-  // TODO(you): implement this function!
   bool in_word;
   bool at_pos;
   size_t filtered = 0;
@@ -150,7 +146,6 @@ size_t filter_vocabulary_yellow(char letter, int position, char **vocabulary,
 size_t filter_vocabulary_green(char letter, int position, char **vocabulary,
                                size_t num_words) {
 
-  // TODO(you): implement this function!
   size_t filtered = 0;
   for(size_t i = 0;i<num_words;i++){
     if(vocabulary[i] == NULL){
